@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api>
+    <content>
+        <id>1</id>
+        <name>Tester</name>
+        <email>test@tester.com</email>
+        <password>pass</password>
+        <city>Berlin</city>
+    </content>
+    <content>
+        <id>error</id>
+        <password>error</password>
+        <city>error</city>
+    </content>
+</api>
