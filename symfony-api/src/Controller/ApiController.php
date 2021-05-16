@@ -27,7 +27,7 @@ class ApiController extends AbstractController
     }
 
     /**
-     * Returns only items with that were not imported
+     * Returns only items with that were imported
      * 
      * @Route("/api/create", name="create", methods={"POST"})
      */
@@ -65,7 +65,7 @@ class ApiController extends AbstractController
     }
 
     /**
-     * Returns only items with that were not updated
+     * Returns only items with that were updated
      * 
      * @Route("/api/update", name="update", methods={"PUT"})
      */
@@ -101,7 +101,7 @@ class ApiController extends AbstractController
     }
 
     /**
-     * Returns only items with that were not removed
+     * Returns only items with that were removed
      * 
      * @Route("/api/delete", name="delete", methods={"DELETE"})
      */

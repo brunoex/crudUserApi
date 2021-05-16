@@ -18,6 +18,7 @@ final class Version20210515104044 extends AbstractMigration
     {
         $this->addSql('CREATE DATABASE IF NOT EXISTS symfony');
         $this->addSql('CREATE TABLE api_users (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, city VARCHAR(255) NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB');
+        $this->addSql("INSERT INTO `symfony`.`api_users` (`name`, `email`, `password`, `city`) VALUES (`Bruno`, `bruno@bruno.com`, `pass`, `Berlin`'), (`Admin`, `admin@admin.io`, `pass`, `Berlin`)");  
     }
 
     public function down(Schema $schema): void
