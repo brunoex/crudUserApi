@@ -52,3 +52,10 @@ Under /tests/ dir there is ApiTests.php and in /tests/data/ a .xml file that can
     </content>
 </api>
 ```
+
+What's missing?
+--------------------------
+
+1. Security: Make an API key athentication or use some sort of token
+2. Change the sql primary keys to an id that uses a mix(hash) of email and name
+3. Install API Platform https://symfony.com/projects/apiplatform
