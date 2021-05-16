@@ -28,11 +28,12 @@ How does this thing works?
 
 Under /tests/ dir there is ApiTests.php and in /tests/data/ a .xml file that can be used
 
-GET = http://localhost/api to get the in XML a list of the users in DB
-POST = http://localhost/api/create to create, in this case I post my XML data as raw Body (I'm using Postman for requests) and I use the sample below
-PUT = http://localhost/api/update to update, using the xml
-DELETE = http://localhost/api/delete to delete, also using the sample below
+1. GET = http://localhost/api to get the in XML a list of the users in DB
+2. POST = http://localhost/api/create to create, in this case I post my XML data as raw Body (I'm using Postman for requests) and I use the sample below
+3. PUT = http://localhost/api/update to update, using the xml
+4. DELETE = http://localhost/api/delete to delete, also using the sample below
 
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <api>
     <content>
@@ -50,3 +51,4 @@ DELETE = http://localhost/api/delete to delete, also using the sample below
         <city>Berlin</city>
     </content>
 </api>
+```
